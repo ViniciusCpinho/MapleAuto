@@ -1,7 +1,7 @@
 import { RoutesType } from "./types/routes";
 
-import Home from "./src/Home/Home";
-import Contact from "./src/Contact/Contact";
+import Home from "./src/Home";
+import Contact from "./src/Contact";
 
 
 
