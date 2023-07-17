@@ -1,6 +1,8 @@
 import React from "react";
 import { HomeProps, HomeState } from "./types/home";
-
+import Imagem from './assets/WaderBug.png'
+import { Destaques } from "./components";
+import './styles/home.css'
 
 class Home extends React.Component<HomeProps, HomeState> {
     constructor(props: HomeProps) {
@@ -8,11 +10,18 @@ class Home extends React.Component<HomeProps, HomeState> {
         this.state = {   };
     }
 
-    render() { 
+    componentDidMount(): void {
+        document.title = this.props.name
+    }
+
+
+    render() {
         return (
-            <section>
-                Home
-            </section>
+            <body>
+                <div>
+                    <Destaques image={Imagem}/>
+                </div>
+            </body>
         )
     }
 }

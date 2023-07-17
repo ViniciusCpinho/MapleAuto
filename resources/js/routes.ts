@@ -1,7 +1,6 @@
 import { RoutesType } from "./types/routes";
 
 import Home from "./src/Home";
-import Contact from "./src/Contact";
 
 
 
@@ -13,8 +12,8 @@ const routes:RoutesType = {
     },
     Contact: {
         name: 'Contact',
-        route: '/Contact',
-        component: Contact,
+        route: '/',
+        component: null,
     },
 }
 

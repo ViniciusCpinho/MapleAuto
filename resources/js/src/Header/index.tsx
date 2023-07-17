@@ -1,7 +1,8 @@
 import React from "react";
-import './style/index.css'
+import './styles/index.css'
 import Logo from './assets/Logo.png'
 import { Link } from "react-router-dom";
+import routes from '../../routes'
 
 class Header extends React.Component {
     constructor(props) {
@@ -19,7 +20,7 @@ class Header extends React.Component {
                 </div>
 
                 <div>
-                    <Link className="link-component" to='#'>Comprar</Link>
+                    <Link className="link-component" to={routes.Contact.route}>Comprar</Link>
                     <Link className="link-component" to='#'>Vender</Link>
                     <Link className="link-component" to='#'>Serviço</Link>
                     <Link className="link-component" to='#'>Noticias</Link>

@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1C9988; */
+    background-image: linear-gradient(45deg, #1C9988, #37a596,#57E6D2);
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 9px 7px 0px #dad8d8;
+}
+
+.logo{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: -15px;
+    left: 50px;
+}
+
+.logo:hover{
+    transform: scale(1.09);
+}
+
+.link{
+    position: absolute;
+    right: 50px;
+}
+
+.link-component{
+    color: white;
+    margin: 0px 10px;
+}
+
+.link-component:hover{
+    color: #E68157;
+}
