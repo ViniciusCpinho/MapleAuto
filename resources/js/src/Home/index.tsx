@@ -2,7 +2,7 @@ import React from "react";
 import { HomeProps, HomeState } from "./types/home";
 import Imagem from './assets/WaderBug.png'
 import { Destaques } from "./components";
-import './styles/home.css'
+import './styles/home.scss'
 
 class Home extends React.Component<HomeProps, HomeState> {
     constructor(props: HomeProps) {
