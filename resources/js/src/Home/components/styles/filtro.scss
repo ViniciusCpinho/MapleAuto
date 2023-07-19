@@ -1,0 +1,42 @@
+
+.filtro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    
+    &-nomes {
+        display: flex;
+        width: 40vw;
+        justify-content: space-between;
+    }
+
+    &-form{
+        position: relative;
+    }
+
+    &-barra-de-pesquisa{
+        width: 45vw;
+        background-color: whitesmoke;
+        border-radius: .3rem;
+        margin-bottom: 100px;
+    }
+
+    &-input{
+        width: 100%;
+        border-radius: .3rem;
+        height: 50px;
+    }
+
+    &-botao{
+        width: 70px;
+        height:40px;
+        background-color: yellow;
+        border-radius: .3rem;
+        position: absolute;
+        top: 5px; 
+        right: 5px;
+    }
+
+
+}

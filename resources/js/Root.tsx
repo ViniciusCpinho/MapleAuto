@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import routes from './routes'
 import Header from "./src/Header";
+import Footer from "./src/Footer";
 class Root extends React.Component{
     
     render() { 
         return (
             
             <BrowserRouter>
-                    <Header/>
+                <Header/>
                 <Routes>
                     {Object.values(routes).map((route) => (
                         <Route 
@@ -18,6 +19,7 @@ class Root extends React.Component{
                         />
                     ))}
                 </Routes>
+                <Footer/>
           </BrowserRouter>
           );
     }
