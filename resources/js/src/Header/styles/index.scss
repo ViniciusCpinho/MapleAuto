@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    box-shadow: 0px 9px 7px 0px #dad8d8;
+  
+    .logo {
+      position: absolute;
+      width: 130px;
+      height: 130px;
+      top: -15px;
+      left: 50px;
+  
+      &:hover {
+        transform: scale(1.09);
+      }
+    }
+  
+    .link {
+        position: absolute;
+        right: 50px;
+    }
+  
+    .link-component {
+        margin: 0px 10px;  
+    }
+  }
+  
