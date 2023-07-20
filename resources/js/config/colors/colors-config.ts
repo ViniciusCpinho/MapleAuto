@@ -27,8 +27,10 @@ const style = {
     //#endregion
 
     //#region Footer
-    footerBackground: '',
-    footerText: '',
+    Footer: {
+        background: ['lightblue'],
+        title: '#FFF',
+    }
     //#endregion
 
 

@@ -1,8 +1,9 @@
+import { colorsInterface } from "@/config/colors/types";
 
 export interface FooterProps {
 
 }
 
 export interface FooterState{
-    color: Array<string> | string
+    colors: colorsInterface | undefined
 }

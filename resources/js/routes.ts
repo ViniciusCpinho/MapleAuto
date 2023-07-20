@@ -10,11 +10,6 @@ const routes:RoutesType = {
         route: '/',
         component: Home,
     },
-    Contact: {
-        name: 'Contact',
-        route: '/',
-        component: null,
-    },
 }
 
 export default routes

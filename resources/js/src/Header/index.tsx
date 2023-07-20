@@ -11,7 +11,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
     constructor(props: HeaderProps) {
         super(props);
         this.state = {
-            colors: {background: '', title: '', titleHover: ''}
+            colors: undefined
         };
     }
 

@@ -1,26 +1,25 @@
 import React, { Component } from "react";
 import './styles/footer.scss'
-import style from "@/config/colors-config";
 import { FooterProps, FooterState } from "./types/footer";
+import { setColors } from "@/config/colors/setColor";
 class Footer extends React.Component<FooterProps, FooterState>{
     constructor(props: FooterProps) {
         super(props);
         this.state = {
-            color: '#FFF'
+            colors: undefined
         }
     }
 
-    // private handleHover = (event) => {
-    //     event.target.style.color = style.headerLinkHover;
-    //   };
-
-    // private handleLeave = (event) => {
-    //     event.target.style.color = style.headerLink;
-    //   };
+    componentDidMount(): void {
+        const colors = setColors('Footer')
+        this.setState({ colors: colors})
+        console.log(colors)
+    }
 
     render() {
+        const { colors } = this.state
         return (
-            <footer className="footer">
+            <footer className="footer" style={{background: colors?.background, color: colors?.title}}>
                 Todos os direitos pertencentes a ninguém
             </footer>
         );

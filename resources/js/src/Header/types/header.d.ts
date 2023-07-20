@@ -4,5 +4,5 @@ export interface HeaderProps {
 }
 
 export interface HeaderState {
-    colors: colorsInterface | null
+    colors: colorsInterface | undefined
 }
