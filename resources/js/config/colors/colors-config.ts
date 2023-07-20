@@ -2,16 +2,19 @@
 const style = {
 
     //#region Header
-    headerBackGround: [
-        '#1C9988',
-        '#37a596',
-        '#57E6D2'
-    ],
 
-    headerDegree: '45',
-
-    headerLink: '#FFF',
-    headerLinkHover: '#E68157',
+    Header: {
+        background: [
+            '#1C9988',
+            '#37a596',
+            '#57E6D2'
+        ],
+    
+        degree: '45',
+        title: '#FFF',
+        titleHover: '#E68157',
+    },
+    
     //#endregion
 
 

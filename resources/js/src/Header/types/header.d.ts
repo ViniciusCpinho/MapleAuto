@@ -1,8 +1,8 @@
+import { colorsInterface } from "@/config/colors/types"
 
 export interface HeaderProps {
 }
 
 export interface HeaderState {
-    background: Array<string> | string;
-    titleHover: string;
+    colors: colorsInterface | null
 }
