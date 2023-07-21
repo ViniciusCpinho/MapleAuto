@@ -19,11 +19,26 @@ const style = {
 
 
     //#region Home
-    homeBackground: '',
-    homeDestaqueBackground: '#FFF',
+    Home: {
+        background: '',
+        homeDestaqueBackground: '#FFF',
+    
+        homeFiltroBarraDePesquisa: '#FFF',
+        homeaFiltroBotao: '',
 
-    homeFiltroBarraDePesquisa: '#FFF',
-    homeFiltroBotao: '',
+        Filtro: {
+            background: [
+                '#1C9988',
+                '#37a596',
+                '#57E6D2'
+            ],
+        
+            degree: '45',
+            titleHover: '',
+            title: ''
+        }
+    },
+
     //#endregion
 
     //#region Footer

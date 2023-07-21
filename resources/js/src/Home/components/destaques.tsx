@@ -1,6 +1,6 @@
 import React, {Component, createRef} from "react";
 import './styles/destaques.scss'
-import { DestaquesProps, DestaquesState } from "./types/destaques";
+import { DestaquesProps, DestaquesState } from "./types/Destaques";
  
 class Destaques extends React.Component<DestaquesProps, DestaquesState> {
     constructor(props:DestaquesProps) {

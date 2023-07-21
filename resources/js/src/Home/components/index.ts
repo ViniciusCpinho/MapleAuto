@@ -1,5 +1,9 @@
-import Destaques from './destaques'
+import Destaques from './Destaques'
+import Filtro from './Filtro'
+import Categoria from './Categoria'
 
-export {
+export const HomeComponents = {
     Destaques,
+    Filtro,
+    Categoria,
 } 

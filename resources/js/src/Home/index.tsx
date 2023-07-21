@@ -1,9 +1,8 @@
 import React from "react";
 import { HomeProps, HomeState } from "./types/home";
 import Imagem from './assets/WaderBug.png'
-import { Destaques } from "./components";
 import './styles/home.scss'
-import Filtro from "./components/filtro";
+import { HomeComponents } from "./components";
 
 class Home extends React.Component<HomeProps, HomeState> {
     constructor(props: HomeProps) {
@@ -19,8 +18,9 @@ class Home extends React.Component<HomeProps, HomeState> {
     render() {
         return (
             <body>
-                <Destaques image={Imagem}/>
-                <Filtro />
+                <HomeComponents.Destaques image={Imagem}/>
+                <HomeComponents.Filtro/>
+                <HomeComponents.Categoria/>
             </body>
         )
     }
