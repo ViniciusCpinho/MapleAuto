@@ -1,0 +1,31 @@
+.mais-procurados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+    &-item{
+        width: 70%;
+        background-color: pink;
+        border-radius: .3rem;
+    }
+
+    &-square{
+        width: 160px;
+        height: 160px;
+        background-color: red;
+        margin: 0px, 10px;
+        margin-bottom: 30px;
+    }
+
+    &-image-item{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+
+    &-texto{
+        margin-left: 20px;
+        font-size: 30px;
+    }
+}

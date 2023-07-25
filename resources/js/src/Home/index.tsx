@@ -21,6 +21,7 @@ class Home extends React.Component<HomeProps, HomeState> {
                 <HomeComponents.Destaques image={Imagem}/>
                 <HomeComponents.Filtro/>
                 <HomeComponents.Categoria/>
+                <HomeComponents.MaisProcurados/>
             </body>
         )
     }
