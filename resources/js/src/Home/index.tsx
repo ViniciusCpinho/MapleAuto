@@ -1,6 +1,6 @@
 import React from "react";
 import { HomeProps, HomeState } from "./types/home";
-import Imagem from './assets/WaderBug.png'
+import Imagem from './assets/carroDestaque.jpg'
 import './styles/home.scss'
 import { HomeComponents } from "./components";
 
@@ -17,12 +17,16 @@ class Home extends React.Component<HomeProps, HomeState> {
 
     render() {
         return (
-            <body>
-                {/* <HomeComponents.Destaques image={Imagem}/> */}
-                {/* <HomeComponents.Filtro/> */}
-                <div style={{marginTop: 100}}>
-                {/* <HomeComponents.Categoria/> */}
+            <body className="home">
+                <div className="home-destaques">
+                    <HomeComponents.Destaques image={Imagem}/>
                 </div>
+                <div className="home-filtro">
+                    <HomeComponents.BarraPesquisa/>
+                </div>
+                {/* <div style={{marginTop: 100}}>
+                <HomeComponents.Categoria/>
+                </div> */}
                 {/* <HomeComponents.MaisProcurados/> */}
             </body>
         )

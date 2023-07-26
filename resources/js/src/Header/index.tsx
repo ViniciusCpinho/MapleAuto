@@ -60,7 +60,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             style={{ 
               background: this.state.colors?.background, 
               borderBottomColor: this.state.colors?.border,
-              borderBottomWidth: 3,
+              borderBottomWidth: 2,
             }}
           >
               <Link to="/">
@@ -72,7 +72,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
                 alt="Logo" />
               </Link>
         
-              <Filtro/>
+              {/* <Filtro/> */}
     
             <div className="link">
               {this.renderLinks(otherLinks)}

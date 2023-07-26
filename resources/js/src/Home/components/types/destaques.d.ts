@@ -3,5 +3,6 @@ export interface DestaquesProps {
 }
 
 export interface DestaquesState {
-    descricao: boolean;
+    width: number;
+    height: number;
 }
