@@ -1,29 +1,30 @@
 
 const style = {
-
+    //#E18356
     //#region Header
     
     Header: {
         background: [
             '#172540',
         ],
-        border: ['#F2F2F2'],
+        border: ['#fff000'],
         degree: '45',
-        title: '#000',
-        titleHover: '#DEE0D5',
-        logo: '',
+        title: '#fff',
+        titleHover: '#ff4500',
+        logo: '#EBEDE1',
+        logoBorder: '#000',
 
-        Filtro: {
-            background: [
-                '#1C9988',
-                '#37a596',
-                '#57E6D2'
-            ],
+        // Filtro: {
+        //     background: [
+        //         '#1C9988',
+        //         '#37a596',
+        //         '#57E6D2'
+        //     ],
         
-            degree: '45',
-            titleHover: '',
-            title: ''
-        }
+        //     degree: '45',
+        //     titleHover: '',
+        //     title: ''
+        // }
     },
     
     //#endregion

@@ -20,7 +20,7 @@ class Footer extends React.Component<FooterProps, FooterState>{
         const { colors } = this.state
         return (
             <footer className="footer" style={{background: colors?.background, color: colors?.title}}>
-                Todos os direitos pertencentes a ninguém
+                Copyright © 2023 MapleAuto. Todos os direitos reservados.
             </footer>
         );
     }

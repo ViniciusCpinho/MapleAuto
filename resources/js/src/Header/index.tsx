@@ -63,14 +63,20 @@ class Header extends React.Component<HeaderProps, HeaderState> {
               borderBottomWidth: 2,
             }}
           >
+            <div>
               <Link to="/">
-                <img style={{
-                  backgroundColor: this.state.colors?.logo, 
-                }} 
-                className="header-logo" 
-                src={Logo} 
-                alt="Logo" />
+                  <img 
+                    style={{
+                      backgroundColor: this.state.colors?.logo,
+                      borderWidth: 2,
+                      // borderColor: this.state.colors.logoBorder
+                    }} 
+                    className="header-logo" 
+                    src={Logo} 
+                  />
               </Link>
+            </div>
+
         
               {/* <Filtro/> */}
     
