@@ -18,10 +18,12 @@ class Home extends React.Component<HomeProps, HomeState> {
     render() {
         return (
             <body>
-                <HomeComponents.Destaques image={Imagem}/>
-                <HomeComponents.Filtro/>
-                <HomeComponents.Categoria/>
-                <HomeComponents.MaisProcurados/>
+                {/* <HomeComponents.Destaques image={Imagem}/> */}
+                {/* <HomeComponents.Filtro/> */}
+                <div style={{marginTop: 100}}>
+                {/* <HomeComponents.Categoria/> */}
+                </div>
+                {/* <HomeComponents.MaisProcurados/> */}
             </body>
         )
     }

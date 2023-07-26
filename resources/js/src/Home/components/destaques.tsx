@@ -19,21 +19,21 @@ class Destaques extends React.Component<DestaquesProps, DestaquesState> {
 
     handleImageLoad = () => {
         if (this.destaqueRef.current) {
-          this.destaqueRef.current.addEventListener('mouseenter', this.toggleDescricao);
-          this.destaqueRef.current.addEventListener('mouseleave', this.toggleDescricao);
+        //   this.destaqueRef.current.addEventListener('mouseenter', this.toggleDescricao);
+        //   this.destaqueRef.current.addEventListener('mouseleave', this.toggleDescricao);
         }
     };
     
     toggleDescricao = () => {
         const { descricao } = this.state 
 
-        if(descricao){
-            this.setState({descricao: !this.state.descricao})
-        }else{
-            setTimeout(() => {
-                this.setState({descricao: !this.state.descricao})
-            }, 1800)
-        }
+        // if(descricao){
+        //     this.setState({descricao: !this.state.descricao})
+        // }else{
+        //     setTimeout(() => {
+        //         this.setState({descricao: !this.state.descricao})
+        //     }, 1800)
+        // }
       };
 
     render() { 

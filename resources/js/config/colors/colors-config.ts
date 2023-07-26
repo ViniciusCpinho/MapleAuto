@@ -2,17 +2,28 @@
 const style = {
 
     //#region Header
-
+    
     Header: {
         background: [
-            '#1C9988',
-            '#37a596',
-            '#57E6D2'
+            '#172540',
         ],
-    
+        border: ['#F2F2F2'],
         degree: '45',
-        title: '#FFF',
-        titleHover: '#E68157',
+        title: '#000',
+        titleHover: '#DEE0D5',
+        logo: '',
+
+        Filtro: {
+            background: [
+                '#1C9988',
+                '#37a596',
+                '#57E6D2'
+            ],
+        
+            degree: '45',
+            titleHover: '',
+            title: ''
+        }
     },
     
     //#endregion
@@ -43,7 +54,7 @@ const style = {
 
     //#region Footer
     Footer: {
-        background: ['lightblue'],
+        background: ['#172540'],
         title: '#FFF',
     }
     //#endregion

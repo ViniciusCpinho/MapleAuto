@@ -2,11 +2,9 @@ import React from "react";
 import './styles/index.scss';
 import Logo from './assets/Logo.png';
 import { Link } from "react-router-dom";
-import routes from '../../routes';
-import style from "@/config/colors/colors-config";
 import { HeaderProps, HeaderState } from "./types/header";
 import { setColors } from "@/config/colors/setColor";
-
+import Filtro from "./Filtro";
 class Header extends React.Component<HeaderProps, HeaderState> {
     constructor(props: HeaderProps) {
         super(props);
@@ -49,13 +47,6 @@ class Header extends React.Component<HeaderProps, HeaderState> {
 
 
       render() {
-        const headerLinks = [
-          { to: "/", label: "Comprar" },
-          { to: "#", label: "Vender" },
-          { to: "#", label: "Serviço" },
-          { to: "#", label: "Noticias" },
-          { to: "#", label: "Ajuda" },
-        ];
     
         const otherLinks = [
           { to: "#", label: "Entrar" },
@@ -64,13 +55,24 @@ class Header extends React.Component<HeaderProps, HeaderState> {
         ];
     
         return (
-          <header className="header" style={{ background: this.state.colors?.background }}>
-            <div>
+          <header 
+            className="header" 
+            style={{ 
+              background: this.state.colors?.background, 
+              borderBottomColor: this.state.colors?.border,
+              borderBottomWidth: 3,
+            }}
+          >
               <Link to="/">
-                <img className="logo" src={Logo} alt="Logo" />
+                <img style={{
+                  backgroundColor: this.state.colors?.logo, 
+                }} 
+                className="header-logo" 
+                src={Logo} 
+                alt="Logo" />
               </Link>
-              {this.renderLinks(headerLinks)}
-            </div>
+        
+              <Filtro/>
     
             <div className="link">
               {this.renderLinks(otherLinks)}

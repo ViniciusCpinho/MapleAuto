@@ -1,12 +1,13 @@
 .card {
     display: flex;
-    justify-content: center;
-    margin-top: 70px;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-left: 50px;
   
     &-item {
       display: flex;
       padding: 10px;
-      border-radius: 1.3rem;
+      border-radius: .3rem;
       box-shadow: 0px 17px 24px -10px rgb(53, 53, 53);
       width: 770px;
       transition: width 2s;
@@ -17,8 +18,8 @@
     }
   
     &-image {
-        max-width: 750px;
-        border-radius: 1.3rem;
+        max-width: 900px;
+        border-radius: .3rem;
     }
   
     &-descricao {
