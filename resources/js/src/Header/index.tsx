@@ -74,11 +74,6 @@ class Header extends React.Component<HeaderProps, HeaderState> {
                 <div className="header-logo-background-line"></div>
                 <Link to="/">
                   <img 
-                    style={{
-                      // backgroundColor: this.state.colors?.logo,
-                      // borderWidth: 2,
-                      // borderColor: this.state.colors?.logoBorder
-                    }} 
                     className="header-logo" 
                     src={Logo} 
                   />

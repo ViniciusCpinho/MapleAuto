@@ -12,7 +12,7 @@ const style = {
         title: '#fff',
         titleHover: '#ff4500',
         logo: '#EBEDE1',
-        logoBorder: '',
+        logoBorder: '#CBD6C1',
 
         // Filtro: {
         //     background: [
