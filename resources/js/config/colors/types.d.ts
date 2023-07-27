@@ -4,4 +4,5 @@ export interface colorsInterface{
     titleHover?: string;
     border?: Array<string> | string;
     logo?: string;
+    logoBorder?: string;
 }

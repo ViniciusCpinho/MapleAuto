@@ -6,6 +6,7 @@ export const setColors = (type: string) => {
     let titleHover = style[type].titleHover;
     let border = style[type].border;
     let logo = style[type].logo
+    let logoBorder = style[type].logoBorder
 
     // console.log(style[type].background)
 
@@ -22,5 +23,6 @@ export const setColors = (type: string) => {
         titleHover: titleHover,
         border: border,
         logo: logo,
+        logoBorder: logoBorder,
     })
 }
