@@ -7,6 +7,7 @@ export const setColors = (type: string) => {
     let border = style[type].border;
     let logo = style[type].logo
     let logoBorder = style[type].logoBorder
+    let toplinkText = style[type].toplinkText
 
     // console.log(style[type].background)
 
@@ -24,5 +25,6 @@ export const setColors = (type: string) => {
         border: border,
         logo: logo,
         logoBorder: logoBorder,
+        toplinkText: toplinkText,
     })
 }

@@ -9,14 +9,14 @@ class Header extends React.Component<HeaderProps, HeaderState> {
     constructor(props: HeaderProps) {
         super(props);
         this.state = {
-            colors: undefined
+            colors: undefined,
         };
     }
 
     componentDidMount(): void {
         const colors = setColors('Header')
         this.setState({ colors: colors })
-        console.log('HeaderColor', colors)
+        // console.log('HeaderColor', colors)
     }
 
     private handleHover = (event) => {
@@ -32,14 +32,14 @@ class Header extends React.Component<HeaderProps, HeaderState> {
     
         return links.map((link) => (
           <Link
-            key={link.to}
+            key={link.rota}
             className="link-component"
-            to={link.to}
+            to={link.rota}
             onMouseEnter={this.handleHover}
             onMouseLeave={this.handleLeave}
             style={{ color: colors?.title }}
           >
-            {link.label}
+            {link.nome}
           </Link>
         ));
       };
@@ -49,9 +49,9 @@ class Header extends React.Component<HeaderProps, HeaderState> {
       render() {
     
         const otherLinks = [
-          { to: "#", label: "Entrar" },
-          { to: "#", label: "Gostei" },
-          { to: "#", label: "Bate-Papo" },
+          { rota: "/", nome: "Entrar" },
+          { rota: "/", nome: "Gostei" },
+          { rota: "/", nome: "Bate-Papo" },
         ];
     
         return (

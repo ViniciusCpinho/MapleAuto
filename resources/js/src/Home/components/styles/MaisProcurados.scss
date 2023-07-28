@@ -1,16 +1,16 @@
-.mais-procurados{
+.mais-procurados {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
 
-    &-item{
+    &-item {
         width: 70%;
         background-color: pink;
         border-radius: .3rem;
     }
 
-    &-square{
+    &-square {
         width: 160px;
         height: 160px;
         background-color: red;
@@ -18,13 +18,13 @@
         margin-bottom: 30px;
     }
 
-    &-image-item{
+    &-image-item {
         display: flex;
         justify-content: space-between;
         margin: 0px 20px;
     }
 
-    &-texto{
+    &-texto {
         margin-left: 20px;
         font-size: 30px;
     }

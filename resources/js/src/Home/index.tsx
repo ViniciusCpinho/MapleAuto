@@ -18,9 +18,13 @@ class Home extends React.Component<HomeProps, HomeState> {
     render() {
         return (
             <body className="home">
+                <div className="home-toplink">
+                    <HomeComponents.TopLink/>
+                </div>
                 <div className="home-destaques">
                     <HomeComponents.Destaques image={Imagem}/>
                 </div>
+                
                 <div className="home-filtro">
                     <HomeComponents.BarraPesquisa/>
                 </div>

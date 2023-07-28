@@ -13,7 +13,7 @@ class Footer extends React.Component<FooterProps, FooterState>{
     componentDidMount(): void {
         const colors = setColors('Footer')
         this.setState({ colors: colors})
-        console.log(colors)
+        // console.log(colors)
     }
 
     render() {

@@ -1,5 +1,5 @@
 export interface DestaquesProps {
-    image:string;
+    image: string;
 }
 
 export interface DestaquesState {
