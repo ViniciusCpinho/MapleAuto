@@ -13,7 +13,7 @@ class Destaques extends React.Component<DestaquesProps, DestaquesState> {
 
     componentDidMount() {
         const width = window.innerWidth - 18
-        const height = (width * (0 / 100));
+        const height = (width * (70 / 100));
         this.setState({ width: width, height: height })
 
     }
@@ -28,9 +28,12 @@ class Destaques extends React.Component<DestaquesProps, DestaquesState> {
                 }}
             >
                 <img className="destaques-image" src={this.props.image} alt="Nome do Carro" />
-                <div className="destaques-image-filtro" />
-
-                <div>
+                <div className="destaques-image-filtro"/>
+                <div className="destaques-container">
+                    <div className="destaques-title">
+                        Encontre a emoção ao volante
+                        <div className="destaques-line"/>
+                    </div>
                     <form
                         className="destaques-selecao"
                         action="#"
