@@ -25,8 +25,8 @@ class Home extends React.Component<HomeProps, HomeState> {
                     <HomeComponents.Destaques image={Imagem}/>
                 </div>
                 
-                <div className="home-filtro">
-                    <HomeComponents.BarraPesquisa/>
+                <div className="home-texto">
+                    <HomeComponents.Texto/>
                 </div>
                 {/* <div style={{marginTop: 100}}>
                 <HomeComponents.Categoria/>

@@ -56,7 +56,7 @@ class Destaques extends React.Component<DestaquesProps, DestaquesState> {
                                         <option value="bmw">BMW</option>
                                         <option value="mercedes">Mercedes</option>
                                     </select>
-
+                                        <span style={{color: 'gray', fontSize: 25}}>|</span>
                                     <select className="destaques-selecao-select">
                                         <option value="">Modelo</option>
                                         <option value="volvo">Volvo</option>
@@ -64,7 +64,7 @@ class Destaques extends React.Component<DestaquesProps, DestaquesState> {
                                         <option value="bmw">BMW</option>
                                         <option value="mercedes">Mercedes</option>
                                     </select>
-
+                                        <span style={{color: 'gray', fontSize: 25}}>|</span>
                                     <select className="destaques-selecao-select">
                                         <option value="">Preço</option>
                                         <option value="volvo">10</option>
