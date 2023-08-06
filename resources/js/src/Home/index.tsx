@@ -28,6 +28,10 @@ class Home extends React.Component<HomeProps, HomeState> {
                 <div className="home-texto">
                     <HomeComponents.Texto/>
                 </div>
+
+                <div className="home-orcamento">
+                    <HomeComponents.Orcamento/>
+                </div>
                 {/* <div style={{marginTop: 100}}>
                 <HomeComponents.Categoria/>
                 </div> */}
