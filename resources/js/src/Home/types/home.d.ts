@@ -6,5 +6,5 @@ export interface HomeProps {
 }
 
 export interface HomeState {
-    colors: colorsInterface | undefined;
+    colors?: colorsInterface | undefined;
 }

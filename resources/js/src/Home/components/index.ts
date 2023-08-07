@@ -5,6 +5,7 @@ import BarraPesquisa from './BarraPesquisa'
 import TopLink from './TopLink'
 import Texto from './Texto'
 import Orcamento from './Orcamento'
+import Tipo from './Tipo'
 
 export const HomeComponents = {
     Destaques,
@@ -14,4 +15,6 @@ export const HomeComponents = {
     TopLink,
     Texto,
     Orcamento,
+    Tipo,
+    
 } 

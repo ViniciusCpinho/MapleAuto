@@ -1,0 +1,171 @@
+.tipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+
+    &-text {
+        font-size: 30px;
+        font-weight: bolder;
+        color: orangered;
+    }
+
+    &-selection {
+        display: flex;
+        margin: 30px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 2rem;
+
+        &-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 20px;
+            font-weight: 500;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            padding-left: 100px;
+            padding-right: 100px;
+
+            &:hover {
+                color: white;
+                background-color: orangered;
+            }
+        }
+    }
+
+    &-marca {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+
+        &-logo {
+            width: 160px;
+            height: 140px;
+            background-color: white;
+            text-align: center;
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            &-image {
+                width: 75px;
+            }
+
+            &-text {
+                position: absolute;
+                bottom: 0px;
+                font-size: 20px;
+            }
+
+            &:hover {
+                background-color: orangered;
+                color: white;
+            }
+        }
+    }
+
+    &-corpo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+        &-logo {
+            width: 220px;
+            height: 150px;
+            background-color: white;
+            text-align: center;
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            &-image {
+                width: 200px;
+            }
+
+            &-text {
+                position: absolute;
+                bottom: 0px;
+                font-size: 20px;
+            }
+
+            &:hover {
+                background-color: orangered;
+                color: white;
+            }
+        }
+    }
+
+    &-preco {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+        &-item{
+            width: 170px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 1rem;
+
+            &:hover{
+                background-color: orangered;
+                color: white
+            }
+        }
+
+        &-text{
+            font-size: 20px;
+        }
+
+        &-subtext{
+            text-transform: capitalize;
+        }
+    }
+
+    &-modelo{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+        
+        &-item{
+            width: 170px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 1rem;
+
+            &:hover{
+                background-color: orangered;
+                color: white
+            }
+        }
+
+        &-text{
+            font-size: 20px;
+        }
+
+        &-subtext{
+            text-transform: capitalize;
+        }
+    }
+}

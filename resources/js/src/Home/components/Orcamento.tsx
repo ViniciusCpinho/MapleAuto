@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import './styles/orcamento.scss'
+import './styles/Orcamento.scss'
 import { Image } from "../assets";
-import logo from '../../../assets/Logo.png'
+import logo from '../../../assets/Logos/Logo.png'
 import { OrcamentoProps, OrcamentoState } from "./types/Orcamento";
 
 class Orcamento extends React.Component<OrcamentoProps, OrcamentoState> {

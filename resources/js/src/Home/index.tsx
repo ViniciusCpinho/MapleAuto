@@ -7,7 +7,8 @@ import { HomeComponents } from "./components";
 class Home extends React.Component<HomeProps, HomeState> {
     constructor(props: HomeProps) {
         super(props);
-        this.state = {   };
+        this.state = {
+        };
     }
 
     componentDidMount(): void {
@@ -21,6 +22,7 @@ class Home extends React.Component<HomeProps, HomeState> {
                 <div className="home-toplink">
                     <HomeComponents.TopLink/>
                 </div>
+
                 <div className="home-destaques">
                     <HomeComponents.Destaques image={Imagem}/>
                 </div>
@@ -32,10 +34,11 @@ class Home extends React.Component<HomeProps, HomeState> {
                 <div className="home-orcamento">
                     <HomeComponents.Orcamento/>
                 </div>
-                {/* <div style={{marginTop: 100}}>
-                <HomeComponents.Categoria/>
-                </div> */}
-                {/* <HomeComponents.MaisProcurados/> */}
+
+                <div>
+                    <HomeComponents.Tipo/>
+                </div>
+
             </body>
         )
     }
