@@ -39,6 +39,10 @@ class Home extends React.Component<HomeProps, HomeState> {
                     <HomeComponents.Tipo/>
                 </div>
 
+                <div className="home-carroDestaque">
+                    <HomeComponents.CarroDestaque/>
+                </div>
+
             </body>
         )
     }

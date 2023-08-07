@@ -6,6 +6,7 @@ import TopLink from './TopLink'
 import Texto from './Texto'
 import Orcamento from './Orcamento'
 import Tipo from './Tipo'
+import CarroDestaque from './CarroDestaque'
 
 export const HomeComponents = {
     Destaques,
@@ -16,5 +17,5 @@ export const HomeComponents = {
     Texto,
     Orcamento,
     Tipo,
-    
+    CarroDestaque,  
 } 
